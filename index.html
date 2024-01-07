@@ -1,0 +1,1202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Eksposed Coffee & Eatery</title>
+    <!-- Boostrep -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+    <!-- Icon from Remixiocn -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Navagition -->
+    <nav id="home" class="navbar navbar-expand-lg bg-light shadow py-3 sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img style="max-width: 40px;" src="img/bxs-coffee-bean.svg" alt="" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Feautures</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#review">Review</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reservation">Reservation</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero sliders -->
+    <div id="heroSlider" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item text-center vh-100 active slide-1">
+                <div class="container h-100 d-flex align-items-center justify-content-center">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <h6 class="text-white">Welcome to Eksposed Coffee & Eatery</h6>
+                            <h1 class="display-1 fw-bold text-white">Everything will be fine if you enjoy every moment & chatting at Eksposed</h1>
+                            <a href="#reservation" class="btn btn-brand mt-5">Reservation</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item text-center vh-100 slide-2">
+                <div class="container h-100 d-flex align-items-center justify-content-center">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <h6 class="text-white">Welcome to Eksposed Coffee & Eatery</h6>
+                            <h1 class="display-1 fw-bold text-white">Everything will be fine if you enjoy every moment & chatting at Eksposed</h1>
+                            <a href="#reservation" class="btn btn-brand mt-5">Reservation</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroSlider" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroSlider" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- About -->
+    <section id="about">
+        <div class="container">
+            <div class="row g-3  align-items-center">
+                <div class="col-lg-6">
+                    <img class="img-about" src="img/eksposed-about.jpg" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <div class="main-title">
+                        <h2>About Us</h2>
+                    </div>
+                    <div class="divider my-3"></div>
+                    <p>Eksposed Coffee and Eatery is a haven for coffee enthusiasts and food connoisseurs alike. Nestled in the heart of the city, our establishment captivates patrons with a chic and vibrant ambiance, creating an inviting space for socializing and relaxation. The aroma of freshly brewed coffee wafts through the air, enticing visitors to embark on a sensory journey.</p>
+                    <p>At Eksposed, our commitment to excellence extends to both our meticulously crafted coffee and a diverse menu that tantalizes taste buds. From signature brews to culinary delights, each offering reflects our dedication to providing a unique gastronomic experience. With a blend of modern aesthetics and a passion for quality, Eksposed Coffee and Eatery stands as a destination where friends gather, conversations flow, and the love for great coffee and food blossoms. Come join us and immerse yourself in the warmth of community and the allure of exceptional flavors.</p>
+                    <a href="#menu" class="btn btn-brand">Explore Menu</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu -->
+    <section id="menu" class="bg-dark-subtle">
+
+        <!-- Intro menu -->
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro-text">
+                    <div class="main-title">
+                        <h2>Explore Our Menu</h2>
+                    </div>
+                    <p>Provides a variety of menu variants, all of which can be enjoyed at affordable prices. See menu below.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main menu -->
+        <!-- Membuat navigasi menu -->
+        <div class="container">
+            <ul class="nav nav-pills mb-5 justify-content-center " id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-rice-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-rice" type="button" role="tab" aria-controls="pills-rice"
+                        aria-selected="true">Rice</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-noodle-tab" data-bs-toggle="pill" data-bs-target="#pills-noodle"
+                        type="button" role="tab" aria-controls="pills-noodle" aria-selected="true">Noodle</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-snack-tab" data-bs-toggle="pill" data-bs-target="#pills-snack"
+                        type="button" role="tab" aria-controls="pills-snack" aria-selected="true">Snack</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-coffee-tab" data-bs-toggle="pill" data-bs-target="#pills-coffee"
+                        type="button" role="tab" aria-controls="pills-coffee" aria-selected="true">Coffee</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-non-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-non" type="button" role="tab" aria-controls="pills-non"
+                        aria-selected="true">Non Coffee</button>
+                </li>
+            </ul>
+
+            <!-- Membuat isi content ketika navigasi menu di klik dan ditampilkan -->
+            <div class="tab-content" id="pills-tabContent">
+
+                <!-- Membuat content rice -->
+                <div class="tab-pane fade show active" id="pills-rice" role="tabpanel" aria-labelledby="pills-rice-tab"
+                    tabindex="0">
+                    <div class="row gy-4">
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover rounded-4 ">
+                                <img class="rounded-top-4" src="img/menu-nasi/nas-goreng-seafood.jpg" alt="menu-1">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated (4.7)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                        <h5 class="mb-2 mt-2">Nasi Goreng Seafood</h5>
+                                        <p class="small">But don't forget, this afternoon your energy needs to be filled with complete and healthy ingredients. Like this seafood fried rice, it is rich in carbohydrates and protein. Let's have lunch later, let's boost your energy at Eksposed Coffee and Eatery</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover rounded-4">
+                                <img class="rounded-top-4" src="img/menu-nasi/nasi-capcay.jpg" alt="menu-1">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated (4.8)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                        <h5 class="mb-2 mt-2">Nasi Capcay</h5>
+                                        <p class="small">Fulfill your complete protein, fiber and carbohydrate needs with Exposed-style CapCay Rice. Lunchis more complete and full Lunch is more complete and full only at Eksposed Coffee and Eatery. Exposed Ur day here.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover rounded-4 ">
+                                <img class="rounded-top-4" src="img/menu-nasi/nasi-goreng-ayam-kampung.jpg" alt="menu-1">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated (4.7)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                        <h5 class="mb-2 mt-2">Nasi Goreng Ayam</h5>
+                                        <p class="small">So, it's time for you to try the Kampung Chicken Fried Rice menu from Exposed Coffee and Eatery. With a mixture of traditional Indonesian spices, it will recharge your energy so you will be more enthusiastic about living your life!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover rounded-4 ">
+                                <img class="rounded-top-4" src="img/menu-nasi/nasi-goreng-merah.jpg" alt="menu-1">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated (4.6)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                        <h5 class="mb-2 mt-2">Nasi Goreng Merah</h5>
+                                        <p class="small">Nasi goreng merah, Savor the fiery allure of our Red Fried Rice. Infused with bold spices, each bite tells a flavorful tale that ignites your taste buds with unforgettable Indonesian essence. Enjoyed here with your family or friends at Eksposed.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover rounded-4 ">
+                                <img class="rounded-top-4" src="img/menu-nasi/nasi-rendang.jpg" alt="menu-1">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated (5.0)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                        </span>
+                                        <h5 class="mb-2 mt-2">Nasi Rendang</h5>
+                                        <p class="small">ndulge in the rich harmony of flavors with our signature dish, Nasi Rendang. A perfect fusion of authentic Indonesian essence, it delivers a tantalizing medley of savory, salty, and spicy notes in every bite. Experience the culinary artistry.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover rounded-4 ">
+                                <img class="rounded-top-4" src="img/menu-nasi/pattaya-fried-rice.jpg" alt="menu-1">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated (4.9)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                        <h5 class="mb-2 mt-2">Pattaya Fried Rice</h5>
+                                        <p class="small">Savor the joy on a plate with our Pattaya Fried Rice—a delightful fusion of flavors. This menu is our definition of a plateful of pure happiness, blending taste and contentment in every mouthwatering bite. Harmony of flavors with our signature dish</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover rounded-4 ">
+                                <img class="rounded-top-4" src="img/menu-nasi/sate-taichan.jpg" alt="menu-1">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated (4.7)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                        <h5 class="mb-2 mt-2">Sate Taichan</h5>
+                                        <p class="small">Elevate your lunch hangout with the exquisite Sate Taichan. A culinary adventure that transcends ordinary meals. Indulge in the extraordinary flavors of our best offerings, creating a memorable dining experience taste a longing for more.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover rounded-4 ">
+                                <img class="rounded-top-4" src="img/menu-nasi/iga-sapi-cabai-ijo.jpg" alt="menu-1">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated (4.8)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                        <h5 class="mb-2 mt-2">Iga Sapi Cabai Ijo</h5>
+                                        <p class="small">Kickstart your day with the tantalizing Iga Sapi Cabai Ijo. Our brunch suggestion is a hearty,variety flavors flavorful meal that will elegantly satisfy your hunger. Experience dining tasteful the joy of a robust feast to fuel your day deliciously</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Membuat content noodle -->
+                <div class="tab-pane fade show" id="pills-noodle" role="tabpanel" aria-labelledby="pills-noodle-tab"
+                    tabindex="0">
+                    <div class="row gy-4">
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover rounded-4 ">
+                                <img class="rounded-top-4" src="img/menu-noodle/chicken-noodle.jpg" alt="menu-1">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated (4.7)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                        <h5 class="mb-2 mt-2">Chicken Noodle</h5>
+                                        <p class="small">Chicken noodle, what`f you complete your night with our tasty eksposed chicken noodles? Homemade traditional noodle Serve perfectly warm, tasteful and of course will make your tummy happy, wanna try ? Go get it now. It`s most popular.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover rounded-4 ">
+                                <img class="rounded-top-4" src="img/menu-noodle/mie-goreng-jawa.jpg" alt="menu-1">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated (4.9)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                        <h5 class="mb-2 mt-2">Mie Goreng Jawa</h5>
+                                        <p class="small">Mie goreng jawa, Mie Goreng Jawa for lunchie ! "Boost your energy at lunchtime with high-carb foods. As the day is still long, fuel your spirit to tackle the workload ahead with a nutritious meal. With spices chicken slices dan fried garlic."
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover rounded-4 ">
+                                <img class="rounded-top-4" src="img/menu-noodle/mie-panggang.jpg" alt="menu-1">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated (4.8)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                        <h5 class="mb-2 mt-2">Mie Panggang</h5>
+                                        <p class="small">⁠Mie Panggang,"Experience the tantalizing delight of our baked noodle masterpiece. Crispy perfection meets savory indulgence in every bite, elevating your taste buds to new heights. Unforgettable flavors await!".Crispy perfection meets savory.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover rounded-4 ">
+                                <img class="rounded-top-4" src="img/menu-noodle/spageti-sambal-mata.jpg" alt="menu-1">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated (4.8)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                        <h5 class="mb-2 mt-2">Spagetti Sambal Mata</h5>
+                                        <p class="small">Combining Bali's distinctive local spices with pasta makes Eksposed a go-to destination for savoring various delicious dishes. Like this Spaghetti sambal matah, featuring Italian-style pasta accompanied by Bali's signature sambal."
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover rounded-4">
+                                <img class="rounded-top-4" src="img/menu-noodle/tom-yum-gong-noodle.jpg" alt="menu-1">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated (4.6)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                        <h5 class="mb-2 mt-2">Tom Yum Gong Noodle</h5>
+                                        <p class="small">Tomyum Gong Noodle,Why be thinner when you can have more dinner. Enjoy our hearty Tom Yum Gong Noodle, we guarantee this one gonna be your latest addiction. destination for savoring various delicious dishes of Indonesian food culinary.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Membuat content Snack -->
+                <div class="tab-pane fade show" id="pills-snack" role="tabpanel" aria-labelledby="pills-snack-tab"
+                    tabindex="0">
+                    <div class="row gy-4">
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover rounded-4 ">
+                                <img class="rounded-top-4" src="img/menu-snack/bolognise-roll-snack.jpg" alt="menu-1">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated (4.8)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                        <h5 class="mb-2 mt-2">Bolognise Roll</h5>
+                                        <p class="small"> Bolognise Roll,Savor the rich flavors of our Bolognese Roll a delightful blend of hearty meat sauce and savory spices, wrapped in a warm, golden crust. Irresistible indulgence awaits! Savor the rich flavors of our Bolognese Roll a delightful blend.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover rounded-4 ">
+                                <img class="rounded-top-4" src="img/menu-snack/chicken-wings.jpg" alt="menu-1">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated (4.8)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                        <h5 class="mb-2 mt-2">Chicken Wings</h5>
+                                        <p class="small">Chicken Wings, Experience flavor perfection with our succulent Chicken Wings - crispy on the outside, tender on the inside.evealing a tempting blend of spices and flavorful teste Elevate your taste buds to new heights with every delectable bite!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover rounded-4 ">
+                                <img class="rounded-top-4" src="img/menu-snack/empek-empek-eksposed.jpg" alt="menu-1">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated (4.8)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                        <h5 class="mb-2 mt-2">Empek Empek Eksposed</h5>
+                                        <p class="small">Empek empek eksposed, Indulge in the exquisite taste of our Empek-Empek Expose - a culinary revelation of savory fish cakes, bathed in aromatic, tangy sauce. A symphony of flavors awaits your palate! consectetur adipisicing elit. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover rounded-4">
+                                <img class="rounded-top-4" src="img/menu-snack/nutella-bomb.jpg" alt="menu-1">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated (4.8)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                        <h5 class="mb-2 mt-2">Nuttella Boms</h5>
+                                        <p class="small">Nutella Bomb, Experience pure bliss with our Nutella Bomb - a heavenly fusion of velvety Nutella, oozing out from a decadent center. Indulge in the ultimate chocolate-hazelnut delight, exploding with flavor! with the sweetness of a sprinkle of sugar</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover rounded-4">
+                                <img class="rounded-top-4" src="img/menu-snack/tahu-walik.jpg" alt="menu-1">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated (4.8)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                        <h5 class="mb-2 mt-2">Tahu Walik</h5>
+                                        <p class="small">Tahu walik, Delight in the crispiness of our Tofu Walik a flavorful dance of fried tofu, revealing a tempting blend of spices.revealing a tempting blend of spices and flavorful teste A crunchy sensation that captures your taste buds!.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover rounded-4">
+                                <img class="rounded-top-4" src="img/menu-snack/biscoff-&-nutella-croffle.jpg" alt="menu-1">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated (4.8)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                        <h5 class="mb-2 mt-2">Biscoff & Nutella Croffle</h5>
+                                        <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+                                            cupiditate voluptates unde velit, quidem, ut beatae sit eaque eligendi
+                                            incidunt blanditiis soluta, inventore ipsum illo! Soluta enim esse
+                                            voluptatibus incidunt.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Membuat content Coffee -->
+                <div class="tab-pane fade show" id="pills-coffee" role="tabpanel" aria-labelledby="pills-coffee-tab"
+                    tabindex="0">
+                    <div class="row gy-4">
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover rounded-4 ">
+                                <img class="rounded-top-4" src="img/menu-coffee/coffe-oclock.jpg" alt="menu-1">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated (4.8)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                        <h5 class="mb-2 mt-2">Coffee O`Clock</h5>
+                                        <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+                                            cupiditate voluptates unde velit, quidem, ut beatae sit eaque eligendi
+                                            incidunt blanditiis soluta, inventore ipsum illo! Soluta enim esse
+                                            voluptatibus incidunt.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover rounded-4">
+                                <img class="rounded-top-4" src="img/menu-coffee/coffee-spalsh.jpg" alt="menu-1">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated (4.8)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                        <h5 class="mb-2 mt-2">Coffee Spalsh</h5>
+                                        <p class="small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+                                            cupiditate voluptates unde velit, quidem, ut beatae sit eaque eligendi
+                                            incidunt blanditiis soluta, inventore ipsum illo! Soluta enim esse
+                                            voluptatibus incidunt.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover rounded-4 ">
+                                <img class="rounded-top-4" src="img/menu-coffee/caramel-latte.jpg" alt="menu-1">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated (4.8)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                        <h5 class="mb-2 mt-2">Caramel Latte</h5>
+                                        <p class="small">Reminding customers to drink coffee in the morning or afternoon has become our habit to help keep your energy up. Like travel that requires a vehicle, sometimes our activities also require a little caffeine to feel refreshed.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover rounded-4 ">
+                                <img class="rounded-top-4" src="img/menu-coffee/cappucino.jpg" alt="menu-1">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated (4.8)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                        <h5 class="mb-2 mt-2">Cappucino</h5>
+                                        <p class="small">Savor the exquisite richness of Cappuccino at Café Exposed. Indulge perfect harmony of velvety espresso, frothy milk, and a touch of cocoa. Elevate your coffee experience with every sip, embracing the artistry of our finely crafted brews.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover rounded-4 ">
+                                <img class="rounded-top-4" src="img/menu-coffee/moccacino.jpg" alt="menu-1">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated (4.8)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                        <h5 class="mb-2 mt-2">Moccacino</h5>
+                                        <p class="small">Indulge in the exquisite world of coffee at Exposed Cafe with our Moccacino. Savor the perfect blend of rich espresso, velvety chocolate, and creamy foam, creating a delightful symphony of flavors. Elevate your coffee experience of cafe.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover rounded-4 ">
+                                <img class="rounded-top-4" src="img/menu-coffee/kopi-susu-aren.jpg" alt="menu-1">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated (4.8)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                        <h5 class="mb-2 mt-2">Kopi Susu Aren</h5>
+                                        <p class="small">Savor the perfect blend of richness and simplicity signature our Kopi Susu Aren. Indulge in the velvety texture and harmonious fusion of coffee and palm sugar milk. Uncover the true essence of a uniquely crafted coffee experience.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mmebuat content non-coffe -->
+                <div class="tab-pane fade show" id="pills-non" role="tabpanel"
+                    aria-labelledby="pills-non-tab" tabindex="0">
+                    <div class="row gy-4">
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover rounded-4 ">
+                                <img class="rounded-top-4" src="img/menu-non-coffee/avocado-cheese-cake.jpg" alt="menu-1">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated (4.8)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                        <h5 class="mb-2 mt-2">Avocado Cheese Cake</h5>
+                                        <p class="small">Bring back your mood with our avocado cheese cake. Indulge in the creamy richness of our Avocado Cheesecake, a delectable fusion of velvety avocado and smooth cheesecake perfection. A taste beyond ordinary delights awaits you.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover rounded-4">
+                                <img class="rounded-top-4" src="img/menu-non-coffee/red-velvet.jpg" alt="menu-1">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated (4.8)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                        <h5 class="mb-2 mt-2">Red Velvet</h5>
+                                        <p class="small">Red Velvet, Dear red velvet, with love. You make me warm than the hug. Sip into indulgence with our Red Velvet a delightful blend of fruity flavors and a touch of glamour, creating a refreshing symphony for your taste buds.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover rounded-4 ">
+                                <img class="rounded-top-4" src="img/menu-non-coffee/tropical-sweettness.jpg" alt="menu-1">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated (4.8)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                        <h5 class="mb-2 mt-2">Tropical Sweettness</h5>
+                                        <p class="small">Tropical Sweetness,A perfect day to quench your thirst and unwind! Enjoy the tropical sweetness with a variety of fresh fruit options. Ready to accompany you for an amazing weekend experienceit's time to please yourself by enjoying a fresh drink.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover rounded-4">
+                                <img class="rounded-top-4" src="img/menu-non-coffee/blueberry-smoothies-frozz.jpg" alt="menu-1">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated (4.8)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                        <h5 class="mb-2 mt-2">Blueberry Smoothies Frozz</h5>
+                                        <p class="small">Blueberry Smoothies Frozz is ready to quench your thirst in the midst of unstable weather forgetable for you to carry out your activities before welcoming the holiday holidays. Enjoy it immediately only at Eksposed Coffee and Eatery.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover rounded-4 ">
+                                <img class="rounded-top-4" src="img/menu-non-coffee/dreamy-mango.jpg" alt="menu-1">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated (4.8)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                        <h5 class="mb-2 mt-2">Dreamy Mango</h5>
+                                        <p class="small">When your ego, thirst and all positive energy have to be endured, it's time to please yourself by enjoying a fresh drink when breaking the fast. One of them is Dreamy Mango with fresh fruit flavors and a variety of syrups ready to restore your enthusiasm</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover rounded-4 ">
+                                <img class="rounded-top-4" src="img/menu-non-coffee/outside-milk.jpg" alt="menu-1">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Rated (4.8)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                        <h5 class="mb-2 mt-2">Outside Milk</h5>
+                                        <p class="small">Sunset is the time to look forward to during Ramadan, the time when we manage to hold back our lust for almost half the day. After that, it's the right time to appreciate yourself, isn't it? By enjoying a glass of coffee to avoid drowsiness, during tarwih later</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="all-menu">
+                    <a href="https://drive.google.com/file/d/10O24yWAnkXXwehDwIYLxoZmAWyb_KbMR/view" class="btn btn-brand" >View all menus</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="bg-cover">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro-text">
+                    <div class="main-title">
+                        <h2>Why to Choose Us?</h2>
+                    </div>
+                    <p class="text-white"></p>
+                </div>
+            </div>
+
+            <!-- Membuat content features -->
+            <div class="row gy-4">
+
+                <!-- Membuat content feautures - free wifi -->
+                <div class="col-lg-4 col-sm-6">
+                    <div class="features-content p-4 text-center rounded-4">
+                        <div class="features-icon rounded-4">
+                            <i class="ri-wifi-fill"></i>
+                        </div>
+                        <h4 class="text-white mt-4 mb-2">Free Wifi</h4>
+                        <p class="text-white">Eksposed charms patrons with its convenient amenity of free Wi-Fi, enhancing the dining experience. Stay connected while savoring delightful offerings, creating a perfect blend of connectivity.</p>
+                    </div>
+                </div>
+
+                <!-- Membuat content feautures - Location -->
+                <div class="col-lg-4 col-sm-6">
+                    <div class="features-content p-4 text-center rounded-4">
+                        <div class="features-icon rounded-4">
+                            <i class="ri-map-2-fill"></i>
+                        </div>
+                        <h4 class="text-white mt-4 mb-2">Location</h4>
+                        <p class="text-white">Eksposed Coffee and Eatery, strategically located in the heart of the city, offers a perfect blend of urban charm and accessibility. Its prime location enhances the cafe's appeal for locals and visitors alike.</p>
+                    </div>
+                </div>
+
+                <!-- Membuat content feautures - Fast Delivery -->
+                <div class="col-lg-4 col-sm-6">
+                    <div class="features-content p-4 text-center rounded-4">
+                        <div class="features-icon rounded-4">
+                            <i class="ri-timer-flash-line"></i>
+                        </div>
+                        <h4 class="text-white mt-4 mb-2">Fast Delivery</h4>
+                        <p class="text-white">Excels with its fast delivery feature, ensuring your favorite delights reach your doorstep promptly. Experience convenience and savor the flavors effortlessly with our efficient delivery service.</p>
+                    </div>
+                </div>
+
+                <!-- Membuat content feautures - Friendly Service -->
+                <div class="col-lg-4 col-sm-6">
+                    <div class="features-content p-4 text-center rounded-4">
+                        <div class="features-icon rounded-4">
+                            <i class="ri-user-heart-fill"></i>
+                        </div>
+                        <h4 class="text-white mt-4 mb-2">Friendly Service</h4>
+                        <p class="text-white">Eksposed charms with its friendly service, creating a welcoming atmosphere. Staff members go above and beyond, ensuring a delightful experience, making every visit memorable and enjoyable.</p>
+                    </div>
+                </div>
+
+                <!-- Membuat content feautures - Highly Rated-->
+                <div class="col-lg-4 col-sm-6">
+                    <div class="features-content p-4 text-center rounded-4">
+                        <div class="features-icon rounded-4">
+                            <i class="ri-shield-star-fill"></i>
+                        </div>
+                        <h4 class="text-white mt-4 mb-2">Highly Rated</h4>
+                        <p class="text-white">Eksposed Coffee and Eatery's highly rated features include a chic ambiance, exceptional service, and a diverse menu. Patrons praise its inviting atmosphere, delicious offerings, and welcoming staff.</p>
+                    </div>
+                </div>
+                <!-- Membuat content feautures - comfortable place -->
+                <div class="col-lg-4 col-sm-6">
+                    <div class="features-content p-4 text-center rounded-4">
+                        <div class="features-icon rounded-4">
+                            <i class="ri-home-office-line"></i>
+                        </div>
+                        <h4 class="text-white mt-4 mb-2">Comfortable Place</h4>
+                        <p class="text-white">Eksposed boasts a comfortable ambiance, blending modern design with cozy elements. The welcoming atmosphere makes it an ideal spot for relaxation, fostering a delightful and enjoyable experience for visitors.</p>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Team -->
+    <section class="bg-dark-subtle" id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro-text">
+                    <div class="main-title">
+                        <h2>Eksposed All Team</h2>
+                    </div>
+                    <p>All team of Exposed Coffee and Eatery who are ready to accompany and serve wholeheartedly.</p>
+                </div>
+            </div>
+
+            <div class="row gy-4">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="team-member px-4 py-4 border shadow-on-hover text-center rounded-4">
+                        <video autoplay controls class="team-vidio" src="img/team-cheff.mp4"></video>
+                        <div class="team-member-content">
+                            <h4>Team Cheff</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="team-member px-4 py-4 border shadow-on-hover text-center rounded-4">
+                        <video autoplay controls class="team-vidio" src="img/team-barista.mp4"></video>
+                        <div class="team-member-content">
+                            <h4>Team Barista</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="team-member px-4 py-4 border shadow-on-hover text-center rounded-4">
+                        <video autoplay controls class="team-vidio" src="img/team-server.mp4"></video>
+                        <div class="team-member-content">
+                            <h4>Team Server</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Review -->
+    <section id="review" class="bg-cover">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro-text">
+                    <div class="main-title">
+                        <h2>Our Client Saying</h2>
+                    </div>
+                    <p class="text-white">Various positive responses and stories of experiences while at Exposed. This review is input and encouragement for Exposed to make it even better.</p>
+                </div>
+            </div>
+
+            <!-- Membuat content review -->
+            <div id="reviewSlider" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#reviewSlider" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#reviewSlider" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#reviewSlider" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#reviewSlider" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#reviewSlider" data-bs-slide-to="4"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#reviewSlider" data-bs-slide-to="5"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#reviewSlider" data-bs-slide-to="6"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#reviewSlider" data-bs-slide-to="7"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#reviewSlider" data-bs-slide-to="8"
+                        aria-label="Slide 4"></button>
+                    
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="review p-5 text-center rounded-4 ">
+                                    <div class="quote-icon text-white"><i class="ri-double-quotes-l"></i></div>
+                                    <p class="text-white mt-4 mb-4 ">Eksposed is my go-to spot for a peaceful coffee break. The comfortable seating, serene ambiance, and delightful coffee make it a perfect retreat from the hustle. Highly recommended!</p>
+                                    <div class="person">
+                                        <img class="" src="img/review/review-1.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="review  p-5 text-center rounded-4">
+                                    <div class="quote-icon text-white"><i class="ri-double-quotes-l"></i></div>
+                                    <p class="text-white mb-4 mt-4">Fantastic experience! The chic interior, coupled with friendly staff, creates a welcoming atmosphere. The coffee is exceptional, and the menu diversity ensures there's something for everyone.</p>
+                                    <div class="person">
+                                        <img src="img/review/review-2.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="review  p-5 text-center rounded-4">
+                                    <div class="quote-icon text-white"><i class="ri-double-quotes-l"></i></div>
+                                    <p class="text-white mb-4 mt-4">Eksposed truly lives up to its name! The trendy yet cozy setting is perfect for catching up with friends. The Kopi Susu Aren is a must-try; it's a unique twist that elevates the coffee experience.</p>
+                                    <div class="person">
+                                        <img src="img/review/review-3.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="review  p-5 text-center rounded-4">
+                                    <div class="quote-icon text-white"><i class="ri-double-quotes-l"></i></div>
+                                    <p class="text-white mb-4 mt-4">Eksposed combines a relaxed environment with top-notch service. The diverse menu, featuring both classic and innovative dishes, keeps me coming back for more. A delightful culinary journey!</p>
+                                    <div class="person">
+                                        <img src="img/review/review-4.png" alt="">                                    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="review  p-5 text-center rounded-4">
+                                    <div class="quote-icon text-white"><i class="ri-double-quotes-l"></i></div>
+                                    <p class="text-white mb-4 mt-4">Eksposed Coffee and Eatery is my favorite spot for brunch dates. The Iga Sapi Cabai Ijo is a flavorful delight, and the overall ambiance provides a charming backdrop for a leisurely meal.</p>
+                                    <div class="person">
+                                        <img src="img/review/review-5.png" alt="">                                       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="review  p-5 text-center rounded-4">
+                                    <div class="quote-icon text-white"><i class="ri-double-quotes-l"></i></div>
+                                    <p class="text-white mb-4 mt-4">I stumbled upon Eksposed and was pleasantly surprised. The exposed brick walls and carefully curated decor create a trendy vibe. The Patayya Fried Rice is a burst of flavors,a must-try.</p>
+                                    <div class="person">
+                                        <img src="img/review/review-6.png" alt="">                                    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="review  p-5 text-center rounded-4">
+                                    <div class="quote-icon text-white"><i class="ri-double-quotes-l"></i></div>
+                                    <p class="text-white mb-4 mt-4">As a coffee enthusiast, Eksposed is a haven for my taste buds. The attention to detail in their coffee preparation is evident. The friendly staff and cozy environment make it my preferred coffee spot.</p>
+                                    <div class="person">
+                                        <img src="img/review/review-7.png" alt="">                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="review  p-5 text-center rounded-4">
+                                    <div class="quote-icon text-white"><i class="ri-double-quotes-l"></i></div>
+                                    <p class="text-white mb-4 mt-4">Eksposed has become my regular workspace. The free Wi-Fi and quiet ambiance make it conducive for productivity. The staff is accommodating, and the coffee provides the perfect energy boost.</p>
+                                    <div class="person">
+                                        <img src="img/review/review-8.png" alt="">                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="review  p-5 text-center rounded-4">
+                                    <div class="quote-icon text-white"><i class="ri-double-quotes-l"></i></div>
+                                    <p class="text-white mb-4 mt-4">The Team at Eksposed is doing an excellent job! The emphasis on quality extends to both the food and service. The Nasi Rendang is a culinary masterpiece, leaving a lasting impression.</p>
+                                    <div class="person">
+                                        <img src="img/review/review-9.png" alt="">                                
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#reviewSlider"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#reviewSlider"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Reservation -->
+    <section id="reservation" class="bg-dark-subtle">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro-text">
+                    <div class="main-title">
+                        <h2>Form Reservation</h2>
+                    </div>
+                    <p>To make a reservation at Exposed, please fill in and fill in the form below.</p>
+                </div>
+            </div>
+            <form action="" class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="row g-3">
+                        <div class="form-group col-lg-6">
+                            <input type="text" class="form-control" placeholder="Full Name">
+                        </div>
+                        <div class="form-group col-lg-6">
+                            <input type="text" class="form-control" placeholder="Email Address">
+                        </div>
+                        <div class="form-group col-lg-6">
+                            <input type="text" class="form-control" placeholder="Date">
+                        </div>
+                        <div class="form-group col-lg-6">
+                            <input type="text" class="form-control" placeholder="Time">
+                        </div>
+                        <div class="form-group col-lg-12">
+                            <textarea name="" id="" cols="30" rows="4" class="form-control" placeholder="Message"></textarea>
+                        </div>
+                        <div class="form-group  col-lg-12">
+                            <a href="#" class="btn btn-brand"> Send</a>
+                        </div>
+
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section id="footer" class="bg-dark">
+            <div class="footer-top ">
+                <div class="container">
+                    <div class="row text-white">
+                        <div class="col-lg-4">
+                            <h2>Eksposed Coffee & Eatery</h2>
+                            <p>Eksposed with best view and experience in Makassar</p>
+                            <div class="social-links">
+                                <a class="text-white text-decoration-none" href="https://www.instagram.com/p/CXvkLsQpfam/"><i class="ri-instagram-fill"></i></a>
+                                <a class="text-white text-decoration-none" href="https://www.tiktok.com/@eksposedcoffee?is_from_webapp=1&sender_device=pc"><i class="ri-tiktok-line"></i></a>
+                                <a href=""></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 ms-auto">
+                            <h6>CONTACT</h6>
+                            <a class="text-white text-decoration-none" href="https://api.whatsapp.com/send/?phone=6285241344909&text&type=phone_number&app_absent=0">+62 852-4134-4909</a><br>
+                            <a href=""></a>
+                            <a class="text-white text-decoration-none" href="https://maps.app.goo.gl/hVaMGdxzNbXkRYP68">Jl. Singa No.11, Bonto Biraeng, Kota Makassar, Sulawesi Selatan</a>
+                        </div>
+                        <div class="col-lg-3">
+                            <h6>OPENING HOURS</h6>
+                            <P>Senin - Sabtu : 07.00-22.00 WIB</P>
+                            <p>Minggu : 08.00-22.00 WIB</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row justify-content-lg-center ">
+                        <div class="col-auto">
+                            <p class="mb-0 text-white">Copyrights all rights reserved</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
